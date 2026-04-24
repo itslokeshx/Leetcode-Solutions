@@ -17,6 +17,7 @@ Each problem lives in its own folder and usually contains:
 | [Best Time to Buy and Sell Stock](121-best-time-to-buy-and-sell-stock/) | [best-time-to-buy-and-sell-stock.cpp](121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.cpp) |
 | [Contains Duplicate](217-contains-duplicate/)                           | [contains-duplicate.cpp](217-contains-duplicate/contains-duplicate.cpp)                                        |
 | [Palindrome Number](9-palindrome-number/)                               | [palindrome-number.cpp](9-palindrome-number/palindrome-number.cpp)                                             |
+| [Valid Anagram](242-valid-anagram/)                                     | [valid-anagram.cpp](242-valid-anagram/valid-anagram.cpp)                                                       |
 
 ## How to Run a Solution
 
