@@ -8,6 +8,28 @@ struct student {
     int marks;
 };
 
+void addStudent(){
+cout << "add student";
+};
+void viewStudents(){
+ cout << "View Students";
+};
+void searchStudent(){
+    cout << "Search Student";
+};
+void updateStudent(){
+{ cout << "update Student";}
+};
+void deleteStudent(){
+{ cout << "Delete Student";}
+};
+void statistics(){
+  { cout << "Statistics";}
+};
+void gradeReport(){
+  { cout << "Grade Report";}
+};
+
 int main(){
     int choice;
    cout << "===== STUDENT MANAGEMENT SYSTEM ===== " << "\n";
@@ -24,25 +46,32 @@ int main(){
  
   switch (choice){
     case 1 :
-    { cout << "add student";};
+    addStudent;
+       return 0;
     break;
       case 2 :
-    { cout << "View Students";};
+    viewStudents;
+       return 0;
     break;
       case 3 :
-    { cout << "Search Student";};
+    searchStudent;
+       return 0;
     break;
       case 4 :
-    { cout << "update Student";};
+    updateStudent;
+       return 0;
     break;
       case 5 :
-    { cout << "Delete Student";};
+    deleteStudent;
+       return 0;
     break;
       case 6 :
-    { cout << "Statistics";};
+     statistics;
+        return 0;
     break;
       case 7 :
-    { cout << "Grade Report";};
+     gradeReport;
+     
     break;
       case 8 :
     { cout << "Exit";};
@@ -50,10 +79,5 @@ int main(){
     default:
      cout << "Invalid choice";
   }
-
-
-
-
-
 
 }
