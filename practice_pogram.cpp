@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
-struct {
-    
-}
+struct student {
+    int rollNo;
+    string name;
+    string age;
+    int marks;
+};
