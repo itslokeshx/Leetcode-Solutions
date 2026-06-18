@@ -46,31 +46,31 @@ int main(){
  
   switch (choice){
     case 1 :
-    addStudent;
+    addStudent();
        return 0;
     break;
       case 2 :
-    viewStudents;
+    viewStudents();
        return 0;
     break;
       case 3 :
-    searchStudent;
+    searchStudent();
        return 0;
     break;
       case 4 :
-    updateStudent;
+    updateStudent();
        return 0;
     break;
       case 5 :
-    deleteStudent;
+    deleteStudent();
        return 0;
     break;
       case 6 :
-     statistics;
+     statistics();
         return 0;
     break;
       case 7 :
-     gradeReport;
+     gradeReport();
      
     break;
       case 8 :
