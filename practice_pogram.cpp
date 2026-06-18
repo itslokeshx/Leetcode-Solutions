@@ -7,9 +7,11 @@ struct student {
     string age;
     int marks;
 };
-
+int student_no=0;
 void addStudent(){
-cout << "add student";
+cout << "add student" << "\n";
+string name = "student" + to_string(student_no + 1);
+cout << name;
 };
 void viewStudents(){
  cout << "View Students";
@@ -32,6 +34,7 @@ void gradeReport(){
 
 int main(){
     int choice;
+
    cout << "===== STUDENT MANAGEMENT SYSTEM ===== " << "\n";
    cout << "1. Add Student" << "\n";
    cout << "2. View Students" << "\n";
@@ -46,6 +49,7 @@ int main(){
  
   switch (choice){
     case 1 :
+
     addStudent();
        return 0;
     break;
