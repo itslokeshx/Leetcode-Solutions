@@ -21,7 +21,35 @@ int main(){
    cout << "8. Exit" << "\n";
   cout << "Enter the number to operate the list the options" << "\n";
   cin >> choice;
-
+ 
+  switch (choice){
+    case 1 :
+    { cout << "add student";};
+    break;
+      case 2 :
+    { cout << "View Students";};
+    break;
+      case 3 :
+    { cout << "Search Student";};
+    break;
+      case 4 :
+    { cout << "update Student";};
+    break;
+      case 5 :
+    { cout << "Delete Student";};
+    break;
+      case 6 :
+    { cout << "Statistics";};
+    break;
+      case 7 :
+    { cout << "Grade Report";};
+    break;
+      case 8 :
+    { cout << "Exit";};
+    break;
+    default:
+     cout << "Invalid choice";
+  }
 
 
 
