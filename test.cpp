@@ -13,7 +13,13 @@ struct student {
 int student_no=0;
 void addStudent(){
 cout << "add student" << "\n";
+int noOfStudents;
 vector <student> newStudent;
+cout << "enter how many student do you want to add:";
+cin  >> noOfStudents;
+for( int i=0 ; i <= noOfStudents; i++ )
+{  cout << "enter student name";
+ }
 };
 void viewStudents(){
  cout << "View Students";
