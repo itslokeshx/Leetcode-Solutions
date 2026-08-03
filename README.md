@@ -78,3 +78,15 @@ Each problem has its dedicated folder following the naming convention `<problem-
 
 * [C++ Reference Guide](https://en.cppreference.com/) - Comprehensive C++ Standard Library reference.
 * [LeetCode Practice](https://leetcode.com/problemset/all/) - Link to the problems dashboard.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
