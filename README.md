@@ -1,38 +1,38 @@
-# 🏆 LeetCode Solutions in C++
+# LeetCode Solutions in C++
 
-A structured, clean collection of C++ solutions for LeetCode problems, designed for optimal time and space complexity.
+A structured collection of C++ solutions for LeetCode problems, focused on optimal time and space complexity.
 
 ---
 
-## 📊 Progress & Stats
+## Progress & Stats
 
 <p align="left">
   <a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" /></a>
   <a href="https://en.cppreference.com/"><img src="https://img.shields.io/badge/Language-C%2B%2B17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17" /></a>
 </p>
 
-| Category | Solved | Progress Bar | Percentage |
+| Difficulty | Solved | Progress | Percentage |
 | :--- | :---: | :--- | :---: |
-| 🟢 **Easy** | **5** | `████████████████████████████████` | `100%` |
-| 🟡 **Medium**| **0** | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` | `0%` |
-| 🔴 **Hard**  | **0** | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` | `0%` |
-| 📦 **Total** | **5** | `████████████████████████████████` | `100%` |
+| Easy | 5 | `████████████████████████████████` | `100%` |
+| Medium | 0 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` | `0%` |
+| Hard | 0 | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` | `0%` |
+| Total | 5 | `████████████████████████████████` | `100%` |
 
 ---
 
-## 📚 Problem Directory
+## Problem Directory
 
 | # | Problem | Solution | Difficulty | Category | Time Complexity | Space Complexity |
-| :---: | :--- | :--- | :---: | :--- | :---: | :---: |
-| **1** | [Two Sum](https://leetcode.com/problems/two-sum) | [two-sum.cpp](./1-two-sum/two-sum.cpp) | 🟢 Easy | `Array` | $O(N^2)$ | $O(1)$ |
-| **9** | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [palindrome-number.cpp](./9-palindrome-number/palindrome-number.cpp) | 🟢 Easy | `Math` / `String` | $O(\log_{10} N)$ | $O(\log_{10} N)$ |
-| **121** | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [best-time-to-buy-and-sell-stock.cpp](./121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.cpp) | 🟢 Easy | `Array` / `DP` | $O(N)$ | $O(1)$ |
-| **217** | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [contains-duplicate.cpp](./217-contains-duplicate/contains-duplicate.cpp) | 🟢 Easy | `Array` / `Sorting` | $O(N \log N)$ | $O(1)$ |
-| **242** | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [valid-anagram.cpp](./242-valid-anagram/valid-anagram.cpp) | 🟢 Easy | `String` / `Sorting` | $O(N \log N)$ | $O(1)$ |
+| :---: | :--- | :--- | :---: | :--- | :--- | :---: |
+| **1** | [Two Sum](https://leetcode.com/problems/two-sum) | [two-sum.cpp](./1-two-sum/two-sum.cpp) | Easy | `Array` | $O(N^2)$ | $O(1)$ |
+| **9** | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [palindrome-number.cpp](./9-palindrome-number/palindrome-number.cpp) | Easy | `Math` / `String` | $O(\log_{10} N)$ | $O(\log_{10} N)$ |
+| **121** | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [best-time-to-buy-and-sell-stock.cpp](./121-best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.cpp) | Easy | `Array` / `DP` | $O(N)$ | $O(1)$ |
+| **217** | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [contains-duplicate.cpp](./217-contains-duplicate/contains-duplicate.cpp) | Easy | `Array` / `Sorting` | $O(N \log N)$ | $O(1)$ |
+| **242** | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [valid-anagram.cpp](./242-valid-anagram/valid-anagram.cpp) | Easy | `String` / `Sorting` | $O(N \log N)$ | $O(1)$ |
 
 ---
 
-## 🛠️ How to Compile & Run
+## How to Compile & Run
 
 Every solution is written in standard C++ and can be compiled using a modern compiler (e.g., GCC 7+).
 
@@ -55,7 +55,7 @@ Run the compiled executable:
 
 ---
 
-## 🚀 Repository Guidelines
+## Repository Guidelines
 
 ### Folder Structure
 Each problem has its dedicated folder following the naming convention `<problem-id>-<problem-slug>`:
@@ -74,7 +74,7 @@ Each problem has its dedicated folder following the naming convention `<problem-
 
 ---
 
-## 📔 Key Learning Resources
+## Key Learning Resources
 
 * [C++ Reference Guide](https://en.cppreference.com/) - Comprehensive C++ Standard Library reference.
 * [LeetCode Practice](https://leetcode.com/problemset/all/) - Link to the problems dashboard.
