@@ -33,3 +33,14 @@ python3 0001-two-sum/0001-two-sum.py
 
 ## Notes
 Solutions are automatically synchronized with LeetCode submissions using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0).
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
