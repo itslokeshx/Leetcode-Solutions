@@ -4,12 +4,12 @@ class Solution:
         cheap = prices[0]
 
         for i in range(len(prices)):
-            current = prices[i]
+            
 
-            if cheap > current:
-                cheap = current
+            if cheap >  prices[i]:
+                cheap =  prices[i]
 
-            if current - cheap > best:
-                best = current - cheap
+            if  prices[i] - cheap > best:
+                best =  prices[i] - cheap
 
         return best
