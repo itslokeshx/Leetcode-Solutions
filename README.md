@@ -71,6 +71,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 ## Hash Table
 |  |
 | ------- |
@@ -84,4 +85,8 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
