@@ -8,7 +8,6 @@ class Solution:
                 low=mid+1
             else:
                 high=mid
-        if(low==high):
-            return(nums[high])
+        return(nums[low])
         
         
