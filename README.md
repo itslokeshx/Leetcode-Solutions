@@ -76,11 +76,13 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -96,6 +98,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
+| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
 | ------- |
