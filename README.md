@@ -117,6 +117,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | ------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 ## Dynamic Programming
 |  |
@@ -128,6 +129,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -156,6 +158,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 ## Math
 |  |
 | ------- |
