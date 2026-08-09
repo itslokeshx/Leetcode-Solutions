@@ -156,4 +156,8 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
