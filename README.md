@@ -2,7 +2,7 @@
 
 ![LeetCode Badge](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-3-brightgreen)
+![Solved](https://img.shields.io/badge/Solved-11-brightgreen)
 
 A collection of solutions to LeetCode coding challenges aimed at acing technical interviews and improving data structure and algorithm skills.
 
@@ -10,10 +10,10 @@ A collection of solutions to LeetCode coding challenges aimed at acing technical
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 3      |
-| Medium     | 0      |
+| Easy       | 6      |
+| Medium     | 5      |
 | Hard       | 0      |
-| **Total**  | **3**  |
+| **Total**  | **11** |
 
 ## Repository Structure
 
@@ -22,12 +22,37 @@ Each problem is organized in its own directory named using the pattern `[problem
 ```text
 Leetcode-Solutions/
 ├── 0001-two-sum/
-│   ├── 0001-two-sum.py
+│   └── 0001-two-sum.py
+├── 0053-maximum-subarray/
+│   ├── 0053-maximum-subarray.py
 │   └── README.md
 ├── 0121-best-time-to-buy-and-sell-stock/
-│   └── 0121-best-time-to-buy-and-sell-stock.py
+│   ├── 0121-best-time-to-buy-and-sell-stock.py
+│   └── README.md
+├── 0152-maximum-product-subarray/
+│   ├── 0152-maximum-product-subarray.py
+│   └── README.md
+├── 0153-find-minimum-in-rotated-sorted-array/
+│   ├── 0153-find-minimum-in-rotated-sorted-array.py
+│   └── README.md
 ├── 0217-contains-duplicate/
-│   └── 0217-contains-duplicate.py
+│   ├── 0217-contains-duplicate.py
+│   └── README.md
+├── 0238-product-of-array-except-self/
+│   ├── 0238-product-of-array-except-self.py
+│   └── README.md
+├── 0303-range-sum-query-immutable/
+│   ├── 0303-range-sum-query-immutable.py
+│   └── README.md
+├── 0560-subarray-sum-equals-k/
+│   ├── 0560-subarray-sum-equals-k.py
+│   └── README.md
+├── 0724-find-pivot-index/
+│   ├── 0724-find-pivot-index.py
+│   └── README.md
+├── 1480-running-sum-of-1d-array/
+│   ├── 1480-running-sum-of-1d-array.py
+│   └── README.md
 ├── README.md
 └── stats.json
 ```
@@ -37,8 +62,16 @@ Leetcode-Solutions/
 | # | Problem Title | Solution File | Language | Difficulty |
 |---|---|---|---|---|
 | 0001 | Two Sum | [0001-two-sum.py](./0001-two-sum/0001-two-sum.py) | Python | Easy |
+| 0053 | Maximum Subarray | [0053-maximum-subarray.py](./0053-maximum-subarray/0053-maximum-subarray.py) | Python | Medium |
 | 0121 | Best Time to Buy and Sell Stock | [0121-best-time-to-buy-and-sell-stock.py](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Python | Easy |
+| 0152 | Maximum Product Subarray | [0152-maximum-product-subarray.py](./0152-maximum-product-subarray/0152-maximum-product-subarray.py) | Python | Medium |
+| 0153 | Find Minimum in Rotated Sorted Array | [0153-find-minimum-in-rotated-sorted-array.py](./0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Python | Medium |
 | 0217 | Contains Duplicate | [0217-contains-duplicate.py](./0217-contains-duplicate/0217-contains-duplicate.py) | Python | Easy |
+| 0238 | Product of Array Except Self | [0238-product-of-array-except-self.py](./0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Python | Medium |
+| 0303 | Range Sum Query - Immutable | [0303-range-sum-query-immutable.py](./0303-range-sum-query-immutable/0303-range-sum-query-immutable.py) | Python | Easy |
+| 0560 | Subarray Sum Equals K | [0560-subarray-sum-equals-k.py](./0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.py) | Python | Medium |
+| 0724 | Find Pivot Index | [0724-find-pivot-index.py](./0724-find-pivot-index/0724-find-pivot-index.py) | Python | Easy |
+| 1480 | Running Sum of 1d Array | [1480-running-sum-of-1d-array.py](./1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.py) | Python | Easy |
 
 ## Usage
 
