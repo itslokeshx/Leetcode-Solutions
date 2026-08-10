@@ -102,6 +102,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0152-maximum-product-subarray) |
@@ -116,6 +117,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -128,6 +130,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 ## Prefix Sum
@@ -157,6 +160,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 ## Math
