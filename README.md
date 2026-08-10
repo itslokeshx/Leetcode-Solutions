@@ -102,6 +102,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -160,6 +161,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
@@ -167,4 +169,8 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0009-palindrome-number) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
