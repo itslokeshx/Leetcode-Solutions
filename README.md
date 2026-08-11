@@ -108,6 +108,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
@@ -119,6 +120,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | ------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -132,6 +134,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 ## Prefix Sum
@@ -146,6 +149,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 ## Binary Search
 |  |
 | ------- |
@@ -173,4 +177,12 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
