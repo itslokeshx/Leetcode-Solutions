@@ -10,12 +10,13 @@ class Solution:
                 cal+=x**2
                 n=n//10
             n = cal
-            if(cal in num):
-                n=0
-                flag=False
-            elif(cal==1):
+            if(cal==1):
                 flag=True
                 break
+            elif(cal in num):
+                flag=False
+                n=0
+                
             else:
                 num.add(cal)
                 
