@@ -1,16 +1,15 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        major=0
-        seen={}
+        count=0
+        candidate=0
         for i in range(0,len(nums)):
-            if(nums[i] not in seen):
-                seen[nums[i]]=1
+            if(count==0):
+                candidate=nums[i]
+                count+=1
+            elif(nums[i]==candidate):
+                count+=1
             else:
-                seen[nums[i]]+=1
-        for key,value in seen.items():
-            if(value>(len(nums)/2)):
-                major=key
-        return major
-           
+                count-=1
+        return candidate
 
-        
+            
