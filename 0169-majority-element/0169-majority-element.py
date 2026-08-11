@@ -8,7 +8,7 @@ class Solution:
             else:
                 seen[nums[i]]+=1
         for key,value in seen.items():
-            if(value>=(len(nums)/2)):
+            if(value>(len(nums)/2)):
                 major=key
         return major
            
