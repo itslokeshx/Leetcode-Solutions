@@ -12,10 +12,6 @@ class Solution:
                 if(mapping[s[i]]!=t[i]):
                     flag=False
                     break   
-               
-
-                else:
-                    continue  
         return flag
                 
         
