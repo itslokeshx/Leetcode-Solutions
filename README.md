@@ -2,7 +2,7 @@
 
 ![LeetCode Badge](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-11-brightgreen)
+![Solved](https://img.shields.io/badge/Solved-20-brightgreen)
 
 A collection of solutions to LeetCode coding challenges aimed at acing technical interviews and improving data structure and algorithm skills.
 
@@ -10,65 +10,32 @@ A collection of solutions to LeetCode coding challenges aimed at acing technical
 
 | Difficulty | Solved |
 |------------|--------|
-| Easy       | 6      |
-| Medium     | 5      |
+| Easy       | 14     |
+| Medium     | 6      |
 | Hard       | 0      |
-| **Total**  | **11** |
-
-## Repository Structure
-
-Each problem is organized in its own directory named using the pattern `[problem_id]-[problem_name]`:
-
-```text
-Leetcode-Solutions/
-├── 0001-two-sum/
-│   └── 0001-two-sum.py
-├── 0053-maximum-subarray/
-│   ├── 0053-maximum-subarray.py
-│   └── README.md
-├── 0121-best-time-to-buy-and-sell-stock/
-│   ├── 0121-best-time-to-buy-and-sell-stock.py
-│   └── README.md
-├── 0152-maximum-product-subarray/
-│   ├── 0152-maximum-product-subarray.py
-│   └── README.md
-├── 0153-find-minimum-in-rotated-sorted-array/
-│   ├── 0153-find-minimum-in-rotated-sorted-array.py
-│   └── README.md
-├── 0217-contains-duplicate/
-│   ├── 0217-contains-duplicate.py
-│   └── README.md
-├── 0238-product-of-array-except-self/
-│   ├── 0238-product-of-array-except-self.py
-│   └── README.md
-├── 0303-range-sum-query-immutable/
-│   ├── 0303-range-sum-query-immutable.py
-│   └── README.md
-├── 0560-subarray-sum-equals-k/
-│   ├── 0560-subarray-sum-equals-k.py
-│   └── README.md
-├── 0724-find-pivot-index/
-│   ├── 0724-find-pivot-index.py
-│   └── README.md
-├── 1480-running-sum-of-1d-array/
-│   ├── 1480-running-sum-of-1d-array.py
-│   └── README.md
-├── README.md
-└── stats.json
-```
+| **Total**  | **20** |
 
 ## Solutions Index
 
 | # | Problem Title | Solution File | Language | Difficulty |
 |---|---|---|---|---|
 | 0001 | Two Sum | [0001-two-sum.py](./0001-two-sum/0001-two-sum.py) | Python | Easy |
+| 0009 | Palindrome Number | [0009-palindrome-number.py](./0009-palindrome-number/0009-palindrome-number.py) | Python | Easy |
+| 0014 | Longest Common Prefix | [0014-longest-common-prefix.py](./0014-longest-common-prefix/0014-longest-common-prefix.py) | Python | Easy |
+| 0049 | Group Anagrams | [0049-group-anagrams.py](./0049-group-anagrams/0049-group-anagrams.py) | Python | Medium |
 | 0053 | Maximum Subarray | [0053-maximum-subarray.py](./0053-maximum-subarray/0053-maximum-subarray.py) | Python | Medium |
 | 0121 | Best Time to Buy and Sell Stock | [0121-best-time-to-buy-and-sell-stock.py](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Python | Easy |
+| 0125 | Valid Palindrome | [0125-valid-palindrome.py](./0125-valid-palindrome/0125-valid-palindrome.py) | Python | Easy |
 | 0152 | Maximum Product Subarray | [0152-maximum-product-subarray.py](./0152-maximum-product-subarray/0152-maximum-product-subarray.py) | Python | Medium |
 | 0153 | Find Minimum in Rotated Sorted Array | [0153-find-minimum-in-rotated-sorted-array.py](./0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Python | Medium |
+| 0169 | Majority Element | [0169-majority-element.py](./0169-majority-element/0169-majority-element.py) | Python | Easy |
+| 0202 | Happy Number | [0202-happy-number.py](./0202-happy-number/0202-happy-number.py) | Python | Easy |
+| 0205 | Isomorphic Strings | [0205-isomorphic-strings.py](./0205-isomorphic-strings/0205-isomorphic-strings.py) | Python | Easy |
 | 0217 | Contains Duplicate | [0217-contains-duplicate.py](./0217-contains-duplicate/0217-contains-duplicate.py) | Python | Easy |
 | 0238 | Product of Array Except Self | [0238-product-of-array-except-self.py](./0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Python | Medium |
+| 0242 | Valid Anagram | [0242-valid-anagram.py](./0242-valid-anagram/0242-valid-anagram.py) | Python | Easy |
 | 0303 | Range Sum Query - Immutable | [0303-range-sum-query-immutable.py](./0303-range-sum-query-immutable/0303-range-sum-query-immutable.py) | Python | Easy |
+| 0387 | First Unique Character in a String | [0387-first-unique-character-in-a-string.py](./0387-first-unique-character-in-a-string/0387-first-unique-character-in-a-string.py) | Python | Easy |
 | 0560 | Subarray Sum Equals K | [0560-subarray-sum-equals-k.py](./0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.py) | Python | Medium |
 | 0724 | Find Pivot Index | [0724-find-pivot-index.py](./0724-find-pivot-index/0724-find-pivot-index.py) | Python | Easy |
 | 1480 | Running Sum of 1d Array | [1480-running-sum-of-1d-array.py](./1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.py) | Python | Easy |
@@ -96,7 +63,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## Acknowledgements
 
 Solutions are automatically synchronized with LeetCode submissions using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0).
-<!---LeetCode Topics Start-->
+<!--LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
 |  |
@@ -201,4 +168,4 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
-<!---LeetCode Topics End-->
+<!--LeetCode Topics End-->
