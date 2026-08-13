@@ -3,7 +3,6 @@ class Solution:
         left=0
         right=len(s)-1
         deleteindex=0
-        flag=False
         def ispal(left,right):
             while left<right:
                 if(s[left]!=s[right]):
