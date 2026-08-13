@@ -82,18 +82,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/1480-running-sum-of-1d-array) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
-| [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
-| [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
-| [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
-| [0205-isomorphic-strings](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0205-isomorphic-strings) |
-| [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
-| [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
-| [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
-| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+
 ## Dynamic Programming
 |  |
 | ------- |
