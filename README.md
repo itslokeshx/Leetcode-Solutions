@@ -117,11 +117,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
-## Two Pointers
-|  |
-| ------- |
-| [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
-| [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
+
 
 ## Math
 |  |
@@ -176,8 +172,16 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0409-longest-palindrome) |
+| [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0409-longest-palindrome) |
+| [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
+| [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
+| [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
