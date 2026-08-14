@@ -4,7 +4,6 @@ class Solution:
         for i in range(0,len(nums)):
             need=target-nums[i]
             if(need in seen):
-                return(seen[need],i)
+                return([i,seen[need]])
             seen[nums[i]]=i
-
-           
+        
