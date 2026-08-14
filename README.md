@@ -163,6 +163,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
+| [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 ## Array
 |  |
 | ------- |
@@ -180,6 +181,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0724-find-pivot-index) |
+| [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1480-running-sum-of-1d-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/1480-running-sum-of-1d-array) |
 ## Sorting
 |  |
@@ -189,4 +191,5 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
+| [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 <!---LeetCode Topics End-->
