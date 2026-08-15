@@ -8,13 +8,11 @@ class Solution:
             if(fast==0):
                slow+=1
                k+=1
-               
+               continue
             if(nums[slow-1]!=nums[fast]):
                 nums[slow]=nums[fast]
                 slow+=1
                 k+=1
-            elif(len(nums)==1):
-                k=1
         return(k)
 
 
