@@ -8,14 +8,13 @@ class Solution:
         temps=0
         tempf=0
         for i in range(0,len(nums)):
+            fast=i
             temps=nums[slow]
             tempf=nums[fast]
+   
             if(nums[fast]!=0):
                 nums[fast]=temps
                 nums[slow]=tempf
-                fast+=1
                 slow+=1
-            else:
-                fast+=1
-
+ 
        
