@@ -11,7 +11,6 @@ class Solution:
             fast=i
             temps=nums[slow]
             tempf=nums[fast]
-   
             if(nums[fast]!=0):
                 nums[fast]=temps
                 nums[slow]=tempf
