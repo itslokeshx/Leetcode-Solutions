@@ -152,11 +152,13 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0409-longest-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0409-longest-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
@@ -171,6 +173,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
