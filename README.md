@@ -94,11 +94,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 
 
-## Math
-|  |
-| ------- |
-| [0009-palindrome-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0009-palindrome-number) |
-| [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
+
 ## Trie
 |  |
 | ------- |
@@ -208,4 +204,9 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0009-palindrome-number) |
+| [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
