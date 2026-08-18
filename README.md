@@ -185,6 +185,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0283-move-zeroes](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0724-find-pivot-index) |
 | [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1480-running-sum-of-1d-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/1480-running-sum-of-1d-array) |
@@ -232,4 +233,8 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
