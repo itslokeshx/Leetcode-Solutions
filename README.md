@@ -157,6 +157,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0011-container-with-most-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -175,6 +176,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0026-remove-duplicates-from-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
+| [0075-sort-colors](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0152-maximum-product-subarray) |
@@ -194,6 +196,7 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | ------- |
 | [0015-3sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
@@ -209,4 +212,12 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | ------- |
 | [0009-palindrome-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0009-palindrome-number) |
 | [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
