@@ -1,15 +1,15 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        mapping={}
+        mappings={}
         flag=True
         for i in range(0,len(s)):
-            if(s[i] not in mapping):
-                if(t[i] in mapping.values()):
+            if(s[i] not in mappings):
+                if(t[i] in mappings.values()):
                     flag=False
                     break 
-                mapping[s[i]]=t[i]
+                mappings[s[i]]=t[i]
             else:
-                if(mapping[s[i]]!=t[i]):
+                if(mappings[s[i]]!=t[i]):
                     flag=False
                     break   
         return flag
