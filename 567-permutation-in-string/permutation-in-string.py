@@ -1,7 +1,6 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         left = 0
-        k = len(s1)
         s1_map = {}
         for s in s1:
             if s not in s1_map:
@@ -15,7 +14,7 @@ class Solution:
                 s2_map[s2[right]] = 1
             else:
                 s2_map[s2[right]] += 1
-            if right - left + 1 == k:
+            if right - left + 1 == len(s1):
                 if s1_map == s2_map:
                     flag = True
                 s2_map[s2[left]] -= 1
