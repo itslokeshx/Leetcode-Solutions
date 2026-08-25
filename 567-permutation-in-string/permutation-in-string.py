@@ -10,15 +10,15 @@ class Solution:
         flag = False
         s2_map = {}
         for right in range(len(s2)):
-            if s2[right] not in s2_map:
+            if(s2[right] not in s2_map):
                 s2_map[s2[right]] = 1
             else:
                 s2_map[s2[right]] += 1
-            if right - left + 1 == len(s1):
-                if s1_map == s2_map:
+            if(right - left + 1 == len(s1)):
+                if(s1_map == s2_map):
                     flag = True
                 s2_map[s2[left]] -= 1
-                if s2_map[s2[left]] == 0:
+                if(s2_map[s2[left]] == 0):
                     del s2_map[s2[left]]
                 left += 1
         return flag
