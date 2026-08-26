@@ -1,6 +1,5 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-
         left = 0
         window_freq = {}
         pattern_freq = {}
