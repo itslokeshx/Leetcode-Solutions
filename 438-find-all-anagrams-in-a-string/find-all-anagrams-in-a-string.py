@@ -4,7 +4,6 @@ class Solution:
         window_freq = {}
         pattern_freq = {}
         result = []
-
         for char in p:
             if char not in pattern_freq:
                 pattern_freq[char] = 1
