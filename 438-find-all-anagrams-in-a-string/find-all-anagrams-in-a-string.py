@@ -1,35 +1,32 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        left=0
-        freq_map={}
-        p_freq={}
-        index_arr=[]
+
+        left = 0
+        window_freq = {}
+        pattern_freq = {}
+        result = []
+
         for char in p:
-            if(char not in p_freq):
-                p_freq[char]=1
+            if char not in pattern_freq:
+                pattern_freq[char] = 1
             else:
-                p_freq[char]+=1
-        for right in range(0,len(s)):
-            if(s[right] not in freq_map):
-                freq_map[s[right]]=1
+                pattern_freq[char] += 1
+
+        for right in range(len(s)):
+            if s[right] not in window_freq:
+                window_freq[s[right]] = 1
             else:
-                freq_map[s[right]]+=1
-            if(right-left+1==len(p)):
-                if(p_freq==freq_map):
-                    index_arr.append(left)
-                    freq_map[s[left]]-=1
-                    if(freq_map[s[left]] == 0):
-                        del freq_map[s[left]] 
-                    left+=1
-                else:
-                    freq_map[s[left]]-=1
-                    if(freq_map[s[left]] == 0):
-                        del freq_map[s[left]] 
-                    left+=1
-        return index_arr
-                    
+                window_freq[s[right]] += 1
 
+            if right - left + 1 == len(p):
+                if pattern_freq == window_freq:
+                    result.append(left)
 
+                window_freq[s[left]] -= 1
 
+                if window_freq[s[left]] == 0:
+                    del window_freq[s[left]]
 
-        
+                left += 1
+
+        return result
