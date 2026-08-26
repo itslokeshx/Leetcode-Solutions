@@ -1,52 +1,41 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
+        need = {}
+        
+        for char in t:
+            need[char] = need.get(char, 0) + 1
 
         left = 0
-        t_freq = {}
-        window_freq = {}
-        window = ""
-
-        for char in t:
-            if char not in t_freq:
-                t_freq[char] = 1
-            else:
-                t_freq[char] += 1
+        required = len(t)
+        best_start = 0
+        best_length = float("inf")
 
         for right in range(len(s)):
+            char = s[right]
 
-            if s[right] not in window_freq:
-                window_freq[s[right]] = 1
-            else:
-                window_freq[s[right]] += 1
+            if char in need:
+                if need[char] > 0:
+                    required -= 1
+                need[char] -= 1
 
-            if right - left + 1 >= len(t):
+            while required == 0:
+                window_length = right - left + 1
 
-                flag = True
+                if window_length < best_length:
+                    best_length = window_length
+                    best_start = left
 
-                for char, freq_count in t_freq.items():
-                    if window_freq.get(char, 0) < freq_count:
-                        flag = False
-                        break
+                left_char = s[left]
 
-                while flag:
+                if left_char in need:
+                    need[left_char] += 1
 
-                    if len(window) == 0:
-                        window = s[left:right + 1]
-                    elif len(window) > right - left + 1:
-                        window = s[left:right + 1]
+                    if need[left_char] > 0:
+                        required += 1
 
-                    window_freq[s[left]] -= 1
+                left += 1
 
-                    if window_freq[s[left]] == 0:
-                        del window_freq[s[left]]
+        if best_length == float("inf"):
+            return ""
 
-                    left += 1
-
-                    flag = True
-
-                    for char, freq_count in t_freq.items():
-                        if window_freq.get(char, 0) < freq_count:
-                            flag = False
-                            break
-
-        return window
+        return s[best_start:best_start + best_length]
