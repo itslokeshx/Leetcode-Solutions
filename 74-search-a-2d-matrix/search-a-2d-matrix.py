@@ -2,9 +2,6 @@ class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         low=0
         high=(len(matrix)*len(matrix[0]))-1
-        mid=(low+high)//2
-        row=mid//len(matrix[0])
-        col=mid%len(matrix[0])
         flag=False
         while low<=high:
             mid=(low+high)//2
