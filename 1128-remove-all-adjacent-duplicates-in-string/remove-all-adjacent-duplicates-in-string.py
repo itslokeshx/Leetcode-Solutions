@@ -1,7 +1,6 @@
 class Solution:
     def removeDuplicates(self, s: str) -> str:
         stack=[]
-        string=""
         for char in s:
             if(len(stack)==0):
                 stack.append(char)
@@ -10,7 +9,7 @@ class Solution:
             else:
                 stack.append(char)
        
-        return string.join(stack)
+        return "".join(stack)
 
         
         
