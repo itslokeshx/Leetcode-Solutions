@@ -2,7 +2,7 @@
 
 ![LeetCode Badge](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-48-brightgreen)
+![Solved](https://img.shields.io/badge/Solved-49-brightgreen)
 
 A collection of solutions to LeetCode coding challenges aimed at acing technical interviews and improving data structure and algorithm skills.
 
@@ -10,10 +10,10 @@ A collection of solutions to LeetCode coding challenges aimed at acing technical
 
 | Difficulty | Solved |
 | ---------- | ------ |
-| Easy       | 29     |
+| Easy       | 30     |
 | Medium     | 17     |
 | Hard       | 2      |
-| **Total**  | **48** |
+| **Total**  | **49** |
 
 ## Solutions Index
 
@@ -66,6 +66,7 @@ A collection of solutions to LeetCode coding challenges aimed at acing technical
 | 0792 | Binary Search | [binary-search.py](./792-binary-search/binary-search.py) | Python | Easy |
 | 0907 | Koko Eating Bananas | [koko-eating-bananas.py](./907-koko-eating-bananas/koko-eating-bananas.py) | Python | Medium |
 | 0977 | Squares of a Sorted Array | [0977-squares-of-a-sorted-array.py](./0977-squares-of-a-sorted-array/0977-squares-of-a-sorted-array.py) | Python | Easy |
+| 1128 | Remove All Adjacent Duplicates In String | [remove-all-adjacent-duplicates-in-string.py](./1128-remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string.py) | Python | Easy |
 | 1480 | Running Sum of 1d Array | [1480-running-sum-of-1d-array.py](./1480-running-sum-of-1d-array/1480-running-sum-of-1d-array.py) | Python | Easy |
 
 ## Usage
@@ -105,9 +106,12 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0011-container-with-most-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [33-search-in-rotated-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/33-search-in-rotated-sorted-array) |
+| [35-search-insert-position](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/35-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0053-maximum-subarray) |
+| [74-search-a-2d-matrix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/74-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -116,35 +120,32 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [219-contains-duplicate-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
-| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
-| [0643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0643-maximum-average-subarray-i) |
-| [0724-find-pivot-index](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0724-find-pivot-index) |
-| [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
-| [1480-running-sum-of-1d-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/1480-running-sum-of-1d-array) |
-| [219-contains-duplicate-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/219-contains-duplicate-ii) |
-| [33-search-in-rotated-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/33-search-in-rotated-sorted-array) |
-| [35-search-insert-position](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/35-search-insert-position) |
 | [424-longest-repeating-character-replacement](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/424-longest-repeating-character-replacement) |
 | [438-find-all-anagrams-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/438-find-all-anagrams-in-a-string) |
+| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [567-permutation-in-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0643-maximum-average-subarray-i) |
 | [643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/643-maximum-average-subarray-i) |
-| [74-search-a-2d-matrix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/74-search-a-2d-matrix) |
+| [0724-find-pivot-index](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0724-find-pivot-index) |
 | [792-binary-search](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/792-binary-search) |
 | [907-koko-eating-bananas](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/907-koko-eating-bananas) |
+| [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
+| [1480-running-sum-of-1d-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/1480-running-sum-of-1d-array) |
 
 ## Binary Search
 
 |                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [0153-find-minimum-in-rotated-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
-| [0167-two-sum-ii-input-array-is-sorted](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
-| [278-first-bad-version](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/278-first-bad-version) |
 | [33-search-in-rotated-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/33-search-in-rotated-sorted-array) |
 | [35-search-insert-position](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/35-search-insert-position) |
 | [74-search-a-2d-matrix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/74-search-a-2d-matrix) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [278-first-bad-version](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/278-first-bad-version) |
 | [792-binary-search](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/792-binary-search) |
 | [907-koko-eating-bananas](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/907-koko-eating-bananas) |
 
@@ -154,14 +155,14 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
-| [0424-longest-repeating-character-replacement](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [424-longest-repeating-character-replacement](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/424-longest-repeating-character-replacement) |
 
 ## Design
 
 |                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [232-implement-queue-using-stacks](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/232-implement-queue-using-stacks) |
+| [0303-range-sum-query-immutable](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0303-range-sum-query-immutable) |
 
 ## Divide and Conquer
 
@@ -192,21 +193,21 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 |                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [0001-two-sum](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0001-two-sum) |
+| [3-longest-substring-without-repeating-characters](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/3-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
+| [76-minimum-window-substring](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/76-minimum-window-substring) |
 | [0169-majority-element](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+| [219-contains-duplicate-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0409-longest-palindrome) |
-| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
-| [219-contains-duplicate-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/219-contains-duplicate-ii) |
-| [3-longest-substring-without-repeating-characters](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/3-longest-substring-without-repeating-characters) |
 | [424-longest-repeating-character-replacement](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/424-longest-repeating-character-replacement) |
 | [438-find-all-anagrams-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/438-find-all-anagrams-in-a-string) |
+| [0560-subarray-sum-equals-k](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [567-permutation-in-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/567-permutation-in-string) |
-| [76-minimum-window-substring](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/76-minimum-window-substring) |
 
 ## Math
 
@@ -241,21 +242,21 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 
 |                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [232-implement-queue-using-stacks](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/232-implement-queue-using-stacks) |
+| [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 
 ## Sliding Window
 
 |                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [0643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0643-maximum-average-subarray-i) |
-| [219-contains-duplicate-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/219-contains-duplicate-ii) |
 | [3-longest-substring-without-repeating-characters](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/3-longest-substring-without-repeating-characters) |
+| [76-minimum-window-substring](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/76-minimum-window-substring) |
+| [219-contains-duplicate-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/219-contains-duplicate-ii) |
 | [424-longest-repeating-character-replacement](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/424-longest-repeating-character-replacement) |
 | [438-find-all-anagrams-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/438-find-all-anagrams-in-a-string) |
 | [567-permutation-in-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0643-maximum-average-subarray-i) |
 | [643-maximum-average-subarray-i](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/643-maximum-average-subarray-i) |
-| [76-minimum-window-substring](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/76-minimum-window-substring) |
 
 ## Sorting
 
@@ -274,29 +275,31 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 
 |                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [0042-trapping-rain-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [20-valid-parentheses](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/20-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [232-implement-queue-using-stacks](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/232-implement-queue-using-stacks) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 
 ## String
 
 |                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [3-longest-substring-without-repeating-characters](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/3-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
+| [20-valid-parentheses](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/20-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0049-group-anagrams) |
+| [76-minimum-window-substring](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/76-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0409-longest-palindrome) |
-| [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
-| [20-valid-parentheses](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/20-valid-parentheses) |
-| [3-longest-substring-without-repeating-characters](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/3-longest-substring-without-repeating-characters) |
 | [424-longest-repeating-character-replacement](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/424-longest-repeating-character-replacement) |
 | [438-find-all-anagrams-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/438-find-all-anagrams-in-a-string) |
 | [567-permutation-in-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/567-permutation-in-string) |
-| [76-minimum-window-substring](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/76-minimum-window-substring) |
+| [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 
 ## Trie
 
@@ -319,9 +322,9 @@ Solutions are automatically synchronized with LeetCode submissions using [LeetHu
 | [0202-happy-number](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0344-reverse-string) |
-| [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
-| [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [438-find-all-anagrams-in-a-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/438-find-all-anagrams-in-a-string) |
 | [567-permutation-in-string](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/567-permutation-in-string) |
+| [0680-valid-palindrome-ii](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
+| [0977-squares-of-a-sorted-array](https://github.com/itslokeshx/Leetcode-Solutions/tree/master/0977-squares-of-a-sorted-array) |
 
 <!---LeetCode Topics End-->
