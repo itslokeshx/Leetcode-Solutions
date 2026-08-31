@@ -2,9 +2,9 @@
 
 My solutions to LeetCode problems, written in Python.
 
-![Total](https://img.shields.io/badge/Solved-48-brightgreen?style=flat-square)
+![Total](https://img.shields.io/badge/Solved-50-brightgreen?style=flat-square)
 ![Easy](https://img.shields.io/badge/Easy-29-5cb85c?style=flat-square)
-![Medium](https://img.shields.io/badge/Medium-17-f0ad4e?style=flat-square)
+![Medium](https://img.shields.io/badge/Medium-19-f0ad4e?style=flat-square)
 ![Hard](https://img.shields.io/badge/Hard-2-d9534f?style=flat-square)
 
 ---
@@ -14,9 +14,9 @@ My solutions to LeetCode problems, written in Python.
 | Difficulty | Count |
 | ---------- | ----- |
 | Easy       | 29    |
-| Medium     | 17    |
+| Medium     | 19    |
 | Hard       | 2     |
-| **Total**  | **48** |
+| **Total**  | **50** |
 
 ---
 
@@ -43,8 +43,10 @@ My solutions to LeetCode problems, written in Python.
 | 0088 | [Merge Sorted Array](./0088-merge-sorted-array/0088-merge-sorted-array.py) | Easy |
 | 0121 | [Best Time to Buy and Sell Stock](./0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy |
 | 0125 | [Valid Palindrome](./0125-valid-palindrome/0125-valid-palindrome.py) | Easy |
+| 0150 | [Evaluate Reverse Polish Notation](./150-evaluate-reverse-polish-notation/evaluate-reverse-polish-notation.py) | Medium |
 | 0152 | [Maximum Product Subarray](./0152-maximum-product-subarray/0152-maximum-product-subarray.py) | Medium |
 | 0153 | [Find Minimum in Rotated Sorted Array](./0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Medium |
+| 0155 | [Min Stack](./155-min-stack/min-stack.py) | Medium |
 | 0167 | [Two Sum II - Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | Medium |
 | 0169 | [Majority Element](./0169-majority-element/0169-majority-element.py) | Easy |
 | 0202 | [Happy Number](./0202-happy-number/0202-happy-number.py) | Easy |
