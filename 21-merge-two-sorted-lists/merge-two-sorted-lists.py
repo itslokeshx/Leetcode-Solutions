@@ -21,7 +21,6 @@ class Solution:
             curr.next=curr1
         else:
             curr.next=curr2
-        
         return dummy.next
         
 
