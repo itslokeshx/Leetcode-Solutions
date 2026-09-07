@@ -12,10 +12,8 @@ class Solution:
         flag=False
 
         while fast is not None and fast.next is not None:
-
             slow=slow.next
             fast=fast.next.next
-            
             if(fast==slow):
                 flag=True
                 break
