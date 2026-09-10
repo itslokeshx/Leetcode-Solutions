@@ -27,16 +27,12 @@ class Solution:
         dummy.next=head
         final=dummy.next
         while second is not None:
-
             first_next=final.next
             second_next=second.next
-            
             final.next=second
             second.next=first_next
-            
             final=first_next
             second=second_next
-
         return final
 
 
