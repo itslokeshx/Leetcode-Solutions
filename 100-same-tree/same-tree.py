@@ -14,7 +14,6 @@ class Solution:
             elif(node1 is None and node2 is not None):
                 return False
             elif(node1.val != node2.val):
-               
                 return False
             left=checksame(node1.left,node2.left)
             right=checksame(node1.right,node2.right)
