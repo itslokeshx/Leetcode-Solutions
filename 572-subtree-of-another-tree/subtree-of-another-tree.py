@@ -6,33 +6,35 @@
 #         self.right = right
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        flag=False
-        def compare(node,subRoot):
-            nonlocal flag
-            if(node is None and subRoot is None):
+
+        def compare(node, target):
+            if node is None and target is None:
                 return True
-            elif(node is None and subRoot is not None):
+            elif node is None and target is not None:
                 return False
-            elif(node is not None and subRoot is None):
+            elif node is not None and target is None:
                 return False
-            elif(node.val != subRoot.val):
+            elif node.val != target.val:
                 return False
-            left=compare(node.left,subRoot.left)
-            right=compare(node.right,subRoot.right)
-            if(left ==True and right ==True):
+
+            left = compare(node.left, target.left)
+            right = compare(node.right, target.right)
+
+            if left == True and right == True:
                 return True
             else:
                 return False
 
-        def duplicate(node):
-            nonlocal flag
-            if(node is None):
+        def search(node):
+            if node is None:
                 return False
-            left=duplicate(node.left)
-            right=duplicate(node.right)
-            return compare(node,subRoot) or left or right
-        return duplicate(root) 
 
+            left = search(node.left)
+            right = search(node.right)
+
+            return compare(node, subRoot) or left or right
+
+        return search(root)
             
 
         
