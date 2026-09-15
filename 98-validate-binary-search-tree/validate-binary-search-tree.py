@@ -9,7 +9,7 @@ class Solution:
         def checkvalid(node,min,max):
             if(node is None):
                 return True
-            elif(node.val <= min or node.val >= max):
+            if(node.val <= min or node.val >= max):
                 return False
             left=checkvalid(node.left,min,node.val)
             right=checkvalid(node.right,node.val,max)
