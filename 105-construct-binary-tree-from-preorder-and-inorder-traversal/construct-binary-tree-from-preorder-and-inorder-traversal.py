@@ -1,40 +1,25 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
 class Solution:
     def buildTree(self, preorder: list[int], inorder: list[int]) -> TreeNode | None:
-        def bstbuilder(prearray,inarray):
-            if(len(prearray)==0):
-                return
-            root=prearray[0]
-            index=inarray.index(root)
-            rootnode=TreeNode(root)
 
-            left_inorder=inarray[:index]
-            right_inorder=inarray[index+1:]
+        def build_tree(preorder_part, inorder_part):
 
-            left_preorder=prearray[1:index+1]
-            right_preorder=prearray[index+1:]
+            if len(preorder_part) == 0:
+                return None
 
-            rootnode.left=bstbuilder(left_preorder,left_inorder)
-            rootnode.right=bstbuilder(right_preorder,right_inorder)
+            root_value = preorder_part[0]
+            root_index = inorder_part.index(root_value)
 
-            return rootnode
-        return bstbuilder(preorder,inorder)
+            root = TreeNode(root_value)
 
-        
+            left_inorder = inorder_part[:root_index]
+            right_inorder = inorder_part[root_index + 1:]
 
-       
+            left_preorder = preorder_part[1:root_index + 1]
+            right_preorder = preorder_part[root_index + 1:]
 
+            root.left = build_tree(left_preorder, left_inorder)
+            root.right = build_tree(right_preorder, right_inorder)
 
+            return root
 
-
-
-            
-
-
-
-        
+        return build_tree(preorder, inorder)
