@@ -13,10 +13,8 @@ class Solution:
                 level_size = len(queue)
                 x_parent = None
                 y_parent = None
-
                 for _ in range(level_size):
                     current = queue.popleft()
-
                     if current.left:
                         if current.left.val == x:
                             x_parent = current
