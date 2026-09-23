@@ -6,37 +6,33 @@
 #         self.right = right
 class Solution:
     def isCousins(self, root: TreeNode | None, x: int, y: int) -> bool:
-        def checkcousin(node,x,y):
-            queue=deque()
+        def check_cousins(root, x, y):
+            queue = deque()
             queue.append(root)
-
             while queue:
-                curlvl=len(queue)
-                x_parent=None
-                y_parent=None
-                for i in range(curlvl):
-                    removed=queue.popleft()
-                    if removed.left:
-                        if removed.left.val == x:
-                            x_parent = removed
-                        if removed.left.val == y:
-                            y_parent = removed
-                        queue.append(removed.left)
-                    if removed.right:
-                        if removed.right.val == x:
-                            x_parent = removed
-                        if removed.right.val == y:
-                            y_parent = removed
-                        queue.append(removed.right)
+                level_size = len(queue)
+                x_parent = None
+                y_parent = None
+
+                for _ in range(level_size):
+                    current = queue.popleft()
+
+                    if current.left:
+                        if current.left.val == x:
+                            x_parent = current
+                        if current.left.val == y:
+                            y_parent = current
+                        queue.append(current.left)
+                    if current.right:
+                        if current.right.val == x:
+                            x_parent = current
+                        if current.right.val == y:
+                            y_parent = current
+                        queue.append(current.right)
                 if x_parent is not None and y_parent is not None:
                     return x_parent != y_parent
                 if x_parent is not None or y_parent is not None:
                     return False
-        return checkcousin(root,x,y)
-
-
-
-
-
-
-        
+            return False
+        return check_cousins(root, x, y)
+   
