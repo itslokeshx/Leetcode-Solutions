@@ -1,18 +1,22 @@
 class Solution:
     def fib(self, n: int) -> int:
-        dp=[-1]*(n+1)
-        def memo(n):
-            if(n==0):
+
+        memo = [-1] * (n + 1)
+
+        def solve(num):
+
+            if num == 0:
                 return 0
-            if(n<=1):
+
+            if num == 1:
                 return 1
-            if(dp[n]!=-1):
-                return dp[n]
-            ans=memo(n-1)+memo(n-2)
-            dp[n]=ans
-            return ans
-        return memo(n)
-        
 
+            if memo[num] != -1:
+                return memo[num]
 
-        
+            result = solve(num - 1) + solve(num - 2)
+            memo[num] = result
+
+            return result
+
+        return solve(n)
