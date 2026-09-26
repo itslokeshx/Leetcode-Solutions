@@ -4,10 +4,10 @@ class Solution:
         finalrow[0]=[1]
         for i in range(1,numRows):
             prerow=finalrow[i-1]
-            row=[1]*(i+1)
+            currrow=[1]*(i+1)
             for j in range(1,i):
-                row[j]=prerow[j-1]+prerow[j]
-            finalrow[i]=row
+                currrow[j]=prerow[j-1]+prerow[j]
+            finalrow[i]=currrow
         return finalrow
         
                 
