@@ -1,12 +1,4 @@
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
 class Codec:
-
     def serialize(self, root):
         queue=deque()
         if(root is None):
@@ -25,7 +17,6 @@ class Codec:
                     treestr+="#"
                 else:
                     treestr+="n#"
-
                 if(removed.right):
                     queue.append(removed.right)
                     treestr+=str(removed.right.val)
@@ -33,7 +24,7 @@ class Codec:
                 else:
                     treestr+="n#"
         return treestr
-
+        
     def deserialize(self, data):
         if(data == ""):
             return
