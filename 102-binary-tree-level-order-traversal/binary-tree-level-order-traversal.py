@@ -21,7 +21,6 @@ class Solution:
                     if removed.left:
                         queue.append(removed.left)
                         temparr.append(removed.left.val)
-
                     if removed.right:
                         queue.append(removed.right)
                         temparr.append(removed.right.val)
