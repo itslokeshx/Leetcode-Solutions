@@ -2,7 +2,6 @@ class Solution:
     def rightSideView(self, root: TreeNode | None) -> list[int]:
         def rightview(node):
             queue = deque()
-
             if node is None:
                 return []
             queue.append(node)
