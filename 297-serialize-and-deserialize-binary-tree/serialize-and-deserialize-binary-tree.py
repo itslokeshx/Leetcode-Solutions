@@ -8,23 +8,21 @@ class Codec:
         treestr+="#"
         queue.append(root)
         while queue:
-            level_size=len(queue)
-            for _ in range(0,level_size):
-                removed=queue.popleft()
-                if(removed.left):
-                    queue.append(removed.left)
-                    treestr+=str(removed.left.val)
-                    treestr+="#"
-                else:
-                    treestr+="n#"
-                if(removed.right):
-                    queue.append(removed.right)
-                    treestr+=str(removed.right.val)
-                    treestr+="#"
-                else:
-                    treestr+="n#"
+            removed=queue.popleft()
+            if(removed.left):
+                queue.append(removed.left)
+                treestr+=str(removed.left.val)
+                treestr+="#"
+            else:
+                treestr+="n#"
+            if(removed.right):
+                queue.append(removed.right)
+                treestr+=str(removed.right.val)
+                treestr+="#"
+            else:
+                treestr+="n#"
         return treestr
-        
+
     def deserialize(self, data):
         if(data == ""):
             return
