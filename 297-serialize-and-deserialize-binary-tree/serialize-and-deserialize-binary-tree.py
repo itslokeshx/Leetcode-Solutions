@@ -8,11 +8,6 @@
 class Codec:
 
     def serialize(self, root):
-        """Encodes a tree to a single string.
-        
-        :type root: TreeNode
-        :rtype: str
-        """
         queue=deque()
         if(root is None):
             return ""
@@ -38,16 +33,8 @@ class Codec:
                 else:
                     treestr+="n#"
         return treestr
-        
-
-        
 
     def deserialize(self, data):
-        """Decodes your encoded data to tree.
-        
-        :type data: str
-        :rtype: TreeNode
-        """
         if(data == ""):
             return
         queue=deque()
