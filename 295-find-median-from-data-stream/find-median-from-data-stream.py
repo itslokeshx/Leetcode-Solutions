@@ -1,11 +1,13 @@
 class MedianFinder:
 
     def __init__(self):
+        
         self.low=[]
         self.high=[]
         
 
     def addNum(self, num: int) -> None:
+
         heapq.heappush(self.low,-num)
 
         if( self.high and self.high[0] < -self.low[0] ):
