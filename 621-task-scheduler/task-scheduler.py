@@ -33,7 +33,6 @@ class Solution:
                         break
             for freq in temp:
                 heapq.heappush(heap,freq)
-
         return time
             
 
