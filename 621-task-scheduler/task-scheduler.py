@@ -6,19 +6,13 @@ class Solution:
                 freq[i]=1
             else:
                 freq[i]+=1
-        
         heap=[]
-
         for val in freq.values():
             heap.append(-val)
-        
         heapq.heapify(heap)
-
         time=0
-
         while heap:
             temp=[]
-
             for i in range(n+1):
                 if(heap):
                     freq=heapq.heappop(heap)
