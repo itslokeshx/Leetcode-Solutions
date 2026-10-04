@@ -1,10 +1,8 @@
 class Solution:
     def floodFill(self, image: list[list[int]], sr: int, sc: int, color: int) -> list[list[int]]:
-
         original = image[sr][sc]
         if original == color:
             return image
-
         def dfs(r, c):
             image[r][c] = color
             if r > 0 and image[r-1][c] == original:
