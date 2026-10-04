@@ -25,7 +25,6 @@ class Solution:
             if( c+1 < len(image[0]) and image[r][c+1] == original):
                 if([r,c+1] not in stack):
                     dfs(r,c+1)
-
             image[r][c]=color
         dfs(sr,sc)
         return image
