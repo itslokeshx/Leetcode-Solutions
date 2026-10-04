@@ -9,7 +9,6 @@ class Solution:
 
             stack.append([r,c])
 
-            
             if( r > 0 and image[r-1][c] == original):
                 if([r-1,c] not in stack):
                     dfs(r-1,c)
