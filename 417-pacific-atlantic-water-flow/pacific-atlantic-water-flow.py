@@ -8,7 +8,6 @@ class Solution:
 
         def dfs(r, c):
             nonlocal pac, atl
-
             visited.add((r, c))
 
             if r > 0 and heights[r - 1][c] <= heights[r][c]:
