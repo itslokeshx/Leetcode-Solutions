@@ -1,5 +1,3 @@
-import sys
-sys.setrecursionlimit(100000)
 class Solution:
     def pacificAtlantic(self, heights: list[list[int]]) -> list[list[int]]:
 
