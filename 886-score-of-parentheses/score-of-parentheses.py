@@ -8,10 +8,7 @@ class Solution:
             if(i==")"):
                 stack.pop()
                 if(prev=="("):
-                    if(len(stack)==0):
-                        score+=1
-                    else:
-                        score+=2 ** len(stack)
+                    score+=2 ** len(stack)
             prev=i
         return score
 
