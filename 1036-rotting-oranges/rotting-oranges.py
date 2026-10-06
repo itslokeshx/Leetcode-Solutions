@@ -10,8 +10,10 @@ class Solution:
                     queue.append((i,j))
                 elif(grid[i][j]==1):
                     fresh+=1
+
         if(fresh==0):
             return 0
+            
         while queue:
             for i in range(len(queue)):
                 r,c=queue.popleft()
