@@ -10,17 +10,13 @@ class Solution:
             while parent[x] != x:
                 x=parent[x]
             return x
-        
-
+            
         for a,b in edges:
             root_a=find(a)
             root_b=find(b)
-
             if(root_a == root_b):
                 return [a,b]
-
             parent[root_b]=root_a
-
         return []
 
 
