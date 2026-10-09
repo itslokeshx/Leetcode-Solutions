@@ -1,9 +1,7 @@
 class Solution:
     def partition(self, s: str) -> list[list[str]]:
-
         ans=[]
         path=[]
-
         def backtrack(index):
             if(index == len(s)):
                 ans.append(path[:])
