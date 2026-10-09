@@ -4,7 +4,6 @@ class Solution:
         path=[]
         count=0
 
-
         def backtrack(index):
             nonlocal count
             for i in range(index,len(candidates)):
