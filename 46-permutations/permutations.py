@@ -4,7 +4,7 @@ class Solution:
         path=[]
         used=set()
 
-        def backtrack(index):
+        def backtrack():
             nonlocal used
             if(len(path) == len(nums)):
                 ans.append(path[:])
@@ -13,9 +13,9 @@ class Solution:
                 if(nums[i] not in used):
                     path.append(nums[i])
                     used.add(nums[i])
-                    backtrack(i)
+                    backtrack()
                     used.remove(nums[i])
                     path.pop()
-        backtrack(0)
+        backtrack()
         return ans
         
