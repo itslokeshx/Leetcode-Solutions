@@ -7,7 +7,6 @@ class Solution:
 
         def backtrack(index):
             nonlocal count
-
             for i in range(index,len(candidates)):
                 if(i>index and candidates[i] == candidates[i-1]):
                     continue
