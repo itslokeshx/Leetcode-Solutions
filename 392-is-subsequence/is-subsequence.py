@@ -1,18 +1,19 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        spointer=0
-        tpointer=0
-        if( s == ""):
+        source_pointer = 0
+        target_pointer = 0
+
+        if s == "":
             return True
-        for i in range(len(t)):
-            if(s[spointer] == t[i]):
-                spointer+=1
-                tpointer+=1
+
+        for index in range(len(t)):
+            if s[source_pointer] == t[target_pointer]:
+                source_pointer += 1
+                target_pointer += 1
             else:
-                tpointer+=1
-            if(spointer== len(s)):
+                target_pointer += 1
+
+            if source_pointer == len(s):
                 return True
+
         return False
-
-
-        
