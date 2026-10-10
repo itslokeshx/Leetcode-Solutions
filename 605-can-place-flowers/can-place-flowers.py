@@ -9,8 +9,6 @@ class Solution:
         if(len(flowerbed) == 1 and flowerbed[0] == 0):
             return True
 
-
-
         for i in range(len(flowerbed)):
             left_bound =  i==0 or flowerbed[i-1]==0 
             right_bound = i==len(flowerbed)-1 or flowerbed[i+1]==0
