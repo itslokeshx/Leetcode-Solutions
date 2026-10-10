@@ -4,7 +4,6 @@ class Solution:
         start=0
         end=0
         result=[]
-
         for i in range(len(s)):
             if( s[i] not in freq):
                 freq[s[i]]=i
