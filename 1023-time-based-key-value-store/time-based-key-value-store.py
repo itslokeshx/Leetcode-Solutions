@@ -1,10 +1,7 @@
-from bisect import bisect_right
-
 class TimeMap:
 
     def __init__(self):
         self.data={
-
         }
         
     def set(self, key: str, value: str, timestamp: int) -> None:
