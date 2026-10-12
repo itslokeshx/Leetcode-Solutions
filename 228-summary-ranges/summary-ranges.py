@@ -2,7 +2,6 @@ class Solution:
     def summaryRanges(self, nums: list[int]) -> list[str]:
         ranges=[]
         start=0
-
         for i in range(1,len(nums)):
             if( nums[i] == nums[i-1] +1 ): 
                 continue
@@ -16,7 +15,6 @@ class Solution:
                 ranges.append(str(nums[start]))
             else:
                 ranges.append(f"{nums[start]}->{nums[-1]}")
-      
         return ranges
 
 
