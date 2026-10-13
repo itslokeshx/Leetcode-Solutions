@@ -11,7 +11,7 @@ class Solution:
         nums.sort()
 
         for i in range(len(nums)):
-            if(i%2==0):
+            if( i % 2 == 0 ):
                 result+=nums[odd]
                 odd-=1
             else:
