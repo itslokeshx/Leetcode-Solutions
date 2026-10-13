@@ -1,7 +1,7 @@
 class Solution:
     def maxAlternatingSum(self, nums: List[int]) -> int:
 
-        result=[0]*len(nums)
+        result=0
 
         for i in range(len(nums)):
             nums[i]=nums[i] ** 2
@@ -13,18 +13,14 @@ class Solution:
 
         for i in range(len(nums)):
             if(i%2==0):
-                result[i]=nums[odd]
+                result+=nums[odd]
                 odd-=1
             else:
-                result[i]=nums[eve]
+                result-=nums[eve]
                 eve+=1
-        final=0
-        for i in range(len(nums)):
-            if(i%2==0):
-                final+=result[i]
-            else:
-                final-=result[i]
-        return final
+
+        return result
+  
   
 
 
