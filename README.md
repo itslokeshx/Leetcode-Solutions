@@ -9,7 +9,7 @@ My solutions to LeetCode problems, written in Python.
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 66    |
-| Medium     | 29    |
+| Medium     | 64    |
 | Hard       | 3     |
 | Total      | 80    |
 
