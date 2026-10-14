@@ -2,7 +2,7 @@
 
 My solutions to LeetCode problems, written in Python.
 
-![Total](https://img.shields.io/badge/Total-80-blue) ![Easy](https://img.shields.io/badge/Easy-49-brightgreen) ![Medium](https://img.shields.io/badge/Medium-28-orange) ![Hard](https://img.shields.io/badge/Hard-3-red)
+![Total](https://img.shields.io/badge/Total-136-blue) ![Easy](https://img.shields.io/badge/Easy-66-brightgreen) ![Medium](https://img.shields.io/badge/Medium-64-orange) ![Hard](https://img.shields.io/badge/Hard-6-red)
 
 ## Stats
 
