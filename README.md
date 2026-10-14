@@ -10,6 +10,6 @@ My solutions to LeetCode problems, written in Python.
 |------------|-------|
 | Easy       | 66    |
 | Medium     | 64    |
-| Hard       | 3     |
-| Total      | 80    |
+| Hard       | 6     |
+| Total      | 136   |
 
