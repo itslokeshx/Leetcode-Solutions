@@ -8,5 +8,5 @@ class Solution:
                 memo[i]=1
             else:
                 memo[i]=memo[i-1]+memo[i-2]
-        return memo[-1]
+        return memo[n]
 
