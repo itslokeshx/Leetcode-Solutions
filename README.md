@@ -8,7 +8,7 @@ My solutions to LeetCode problems, written in Python.
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 48    |
+| Easy       | 66    |
 | Medium     | 29    |
 | Hard       | 3     |
 | Total      | 80    |
