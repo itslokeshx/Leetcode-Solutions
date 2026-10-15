@@ -1,7 +1,5 @@
 # LeetCode Solutions
 
-My solutions to LeetCode problems, written in Python.
-
 ## Stats
 
 | Difficulty | Count |
