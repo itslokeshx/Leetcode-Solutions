@@ -11,5 +11,4 @@ class Solution:
 
         for digit in incremented_number:
             result_digits.append(int(digit))
-
         return result_digits
