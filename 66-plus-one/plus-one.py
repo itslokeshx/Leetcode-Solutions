@@ -1,12 +1,15 @@
 class Solution:
     def plusOne(self, digits: list[int]) -> list[int]:
-        strnumb=""
-        for i in digits:
-            strnumb+=str(i)
-        op=int(strnumb)+1
-        strnumb=str(op)
-        final=[]
-        for i in strnumb:
-            final.append(int(i))
-        return final
-        
+        number_as_string = ""
+
+        for digit in digits:
+            number_as_string += str(digit)
+
+        incremented_number = str(int(number_as_string) + 1)
+
+        result_digits = []
+
+        for digit in incremented_number:
+            result_digits.append(int(digit))
+
+        return result_digits
