@@ -7,9 +7,11 @@ class Solution:
             else:
                 seen[i]+=1
         for i in ransomNote:
+            
             if( i in seen):
                 seen[i]-=1
-                if(seen[i] < 1):
+
+                if(seen[i]==0):
                     seen.pop(i)
             else:
                 return False
